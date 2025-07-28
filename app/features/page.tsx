@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import { Shield, Search, AlertTriangle, CheckCircle, FileText, Database, Cpu, Lock, Users, Clock, TrendingUp, BarChart3 } from 'lucide-react'
 import Header from '../../components/Header'

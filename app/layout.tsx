@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { Metadata } from 'next'
-import { LanguageProvider } from '../contexts/LanguageContext'
+import ClientLayout from './ClientLayout'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -57,9 +57,9 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className}>
-        <LanguageProvider>
+        <ClientLayout>
           {children}
-        </LanguageProvider>
+        </ClientLayout>
       </body>
     </html>
   )

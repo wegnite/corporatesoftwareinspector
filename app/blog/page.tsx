@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import { Calendar, User, ArrowRight, Tag } from 'lucide-react'
 import Header from '../../components/Header'
