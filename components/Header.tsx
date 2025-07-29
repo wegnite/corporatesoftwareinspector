@@ -14,6 +14,7 @@ const Header = () => {
     { name: t('nav.home'), href: '/' },
     { name: t('nav.features'), href: '/features' },
     { name: t('nav.cveAnalyzer'), href: '/cve-analyzer' },
+    { name: '安全知识库', href: '/security-knowledge' },
     { name: t('nav.blog'), href: '/blog' },
     { name: t('nav.contact'), href: '/contact' },
   ]
